@@ -1,0 +1,11 @@
+
+[
+    {
+        "id": 1,
+        "name": "WholeSale Shop",
+        "img": "",
+        "des": "This Is full-stack Project you can add and delete product. Also had admin dasboard",
+        "front-end": ["JavaScript", "React JS", "XML", "TailWind CSS", "CSS"],
+        "Back-end": ["Node JS", "Express JS", "MongoDB"]
+    }
+]

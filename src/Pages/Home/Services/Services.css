@@ -1,0 +1,15 @@
+.section-hedear{
+    font-family: 'Comfortaa', cursive;
+}
+.card{
+    background-color: #07090d;
+}
+.title-color-card{
+    color: rgb(210, 210, 210);
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+}
+.text-color-card{
+    color: rgb(187, 187, 187);
+    font-family: 'nunito', cursive;
+}
