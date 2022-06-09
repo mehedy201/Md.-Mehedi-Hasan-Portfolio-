@@ -5,9 +5,9 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" className='nav-bar-color' variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg='dark' className='nav-bar-color' variant="dark">
             <Container>
-            <Navbar.Brand as={Link} to="home"className='text-success fw-bold logo-text' >Md. Mehedi Hasan</Navbar.Brand>
+            <Navbar.Brand as={Link} to="home" className='text-primary fw-bold logo-text' >Md. Mehedi Hasan</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto">

@@ -11,7 +11,7 @@ function App() {
       <header>
         <Header></Header>
       </header>
-      <main>
+      <main className='bg-dark'>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/home' element={<Home></Home>}></Route>
