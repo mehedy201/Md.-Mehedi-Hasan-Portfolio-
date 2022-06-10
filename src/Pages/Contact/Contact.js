@@ -34,15 +34,15 @@ const Contact = () => {
                         <p className='hero-text-p text-secondary text-center'>Please mail me and stay with us</p>
                         <form action="https://formsubmit.co/mehedy643@gmail.com" method="POST">
                             <div className="mb-3">
-                               <label for="exampleInputEmail1" className="form-label text-white">Your Name</label>
+                               <label htmlFor="exampleInputEmail1" className="form-label text-white">Your Name</label>
                                <input type="Name" name='name' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
                             </div>
                             <div className="mb-3">
-                               <label for="exampleInputPassword1" className="form-label text-white">Subjects</label>
+                               <label htmlFor="exampleInputPassword1" className="form-label text-white">Subjects</label>
                                <input type="text" name='subject' className="form-control" id="exampleInputPassword1"></input>
                             </div>
                             <div className="mb-3">
-                               <label for="exampleInputPassword1" className="form-label text-white">Description</label>
+                               <label htmlFor="exampleInputPassword1" className="form-label text-white">Description</label>
                                <textarea type="text" name='message' className="form-control" id="exampleInputPassword1"></textarea>
                             </div>
                             <button type="submit" className="btn btn-primary">Submit</button>

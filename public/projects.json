@@ -4,6 +4,8 @@
         "id": 1,
         "name": "WholeSale Shop",
         "img": "https://i.ibb.co/vzpGrkB/whole-Sale-Shop.png",
+        "img1": "https://i.ibb.co/HnCNSwC/whole-Sale-Shop1.png",
+        "img2": "https://i.ibb.co/xSFCk30/whole-Sale-Shop2.png",
         "live": "https://wholesale-shop-7cc4b.web.app/",
         "client": "https://github.com/mehedy201/WholeSale-Market-Client-Site",
         "server": "https://github.com/mehedy201/WholeSale-market-Server-Site",
@@ -15,6 +17,8 @@
         "id": 2,
         "name": "Laptop Inventory",
         "img": "https://i.ibb.co/zn9BrSD/laptop-inventory-1.png",
+        "img1": "https://i.ibb.co/y4Srkzt/laptop-Inventory1.png",
+        "img2": "https://i.ibb.co/gSRy04H/laptop-Inventory2.png",
         "live": "https://assinment11-f7c83.web.app/",
         "client": "https://github.com/mehedy201/Laptop-Inventory-Client-Site",
         "server": "https://github.com/mehedy201/Laptop-Inventory-Server-Site",
@@ -26,21 +30,24 @@
         "id": 3,
         "name": "Imigretion and Visa consult",
         "img": "https://i.ibb.co/Q94zFwg/React-JS-with-Firebase-Visa-Consult-site.png",
+        "img1": "https://i.ibb.co/r0k52d2/immigration1.png",
+        "img2": "https://i.ibb.co/fSQf2Qt/immigration2.png",
         "live": "https://immigration---visa-consultant.web.app/",
         "client": "https://github.com/mehedy201/Immigration-and-VISA-consultants",
         "des": "Imigretion and visa consult is a SPA application It's created using React JS",
-        "front-end": ["JavaScript", "React JS", "XML", "TailWind CSS", "CSS"],
+        "front-end": ["JavaScript", "React JS", "XML", "Bootstrap", "CSS"],
         "Back-end": ["Node JS", "Express JS", "MongoDB"]
     },
     {
         "id": 4,
         "name": "BootStrap Landing page",
         "img": "https://i.ibb.co/7QsMjrD/Conversion-center-with-js.png",
+        "img1": "https://i.ibb.co/gRwQGT5/conversion1.png",
+        "img2": "https://i.ibb.co/fG51nqt/conversion2.png",
         "live": "https://mehedy201.github.io/Conversion-center-landing-page-with-bootstrap/",
         "client": "https://github.com/mehedy201/Conversion-center-landing-page-with-bootstrap",
         "des": "This website made by React and Javascript and Privet Route.",
-        "front-end": ["JavaScript", "React JS", "XML", "TailWind CSS", "CSS"],
-        "Back-end": ["Node JS", "Express JS", "MongoDB"]
+        "front-end": ["HTML", "Bootstrap", "CSS"]
     },
     {
         "id": 5,
@@ -50,17 +57,18 @@
         "client": "https://github.com/mehedy201/Routing-Firebase-Authentication",
         "server": "https://github.com/mehedy201/Routing-Firebase-Authentication-Server-Site",
         "des": "Web Site build with React JS, Node JS, MongoDB",
-        "front-end": ["JavaScript", "React JS", "XML", "TailWind CSS", "CSS"],
+        "front-end": ["JavaScript", "React JS", "XML", "Bootstrap", "CSS"],
         "Back-end": ["Node JS", "Express JS", "MongoDB"]
     },
     {
         "id": 6,
         "name": "Simple Portfolio",
         "img": "https://i.ibb.co/bbq5psr/Blog-comment-with-js.png",
+        "img1": "https://i.ibb.co/12W4pnq/routing2.png",
+        "img2": "https://i.ibb.co/x6QXRqf/routing1.png",
         "live": "https://mehedy201.github.io/Blog-with-comment-box-javascript/blogs.html",
         "client": "https://github.com/mehedy201/Blog-with-comment-box-javascript",
         "des": "Simple project using html, css and JavaScript. You can coment in this post",
-        "front-end": ["JavaScript", "React JS", "XML", "TailWind CSS", "CSS"],
-        "Back-end": ["Node JS", "Express JS", "MongoDB"]
+        "front-end": ["HTML", "CSS", "Bootstrap"]
     }
 ]
