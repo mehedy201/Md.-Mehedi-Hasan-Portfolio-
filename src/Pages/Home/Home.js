@@ -3,7 +3,6 @@ import Contact from '../Contact/Contact';
 import Analitic from './Analitic/Analitic';
 import HeroArea from './HeroArea/HeroArea';
 import HomeProjects from './HomeProjects/HomeProjects';
-import Review from './Review/Review';
 import Services from './Services/Services';
 import Skills from './Skills/Skills';
 
