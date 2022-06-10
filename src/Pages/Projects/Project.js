@@ -2,7 +2,8 @@ import React from 'react';
 
 const Project = ({project}) => {
 
-    const {img, name, des} = project;
+    const {img, name, des, live, client, server} = project;
+
     return (
         <div className='col'>
             <div className="card h-100 shadow">
@@ -11,8 +12,11 @@ const Project = ({project}) => {
                     <h5 className="card-title title-color-card">{name}</h5>
                     <p className="card-text text-color-card">{des}</p>
                     <div className='px-3 float-end'>
-                        <button className='btn btn-sm btn-primary me-4'>Live Site</button>
-                        <button className='btn btn-sm btn-primary'>Code Link</button>
+                        <a href={live} className='btn btn-sm btn-primary me-2' target={'_blank'}>Live</a>
+                        <a href={client} className='btn btn-sm btn-primary me-2' target={'_blank'}>Code_Client</a>
+                        {
+                            project.server && <a href={server} className='btn btn-sm btn-primary' target={'_blank'}>Code_Server</a>
+                        }
                     </div>
                   </div>
             </div>

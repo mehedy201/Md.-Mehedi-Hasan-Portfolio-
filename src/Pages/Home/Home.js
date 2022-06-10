@@ -1,4 +1,5 @@
 import React from 'react';
+import Analitic from './Analitic/Analitic';
 import HeroArea from './HeroArea/HeroArea';
 import HomeProjects from './HomeProjects/HomeProjects';
 import Review from './Review/Review';
@@ -9,6 +10,7 @@ const Home = () => {
     return (
         <div>
             <HeroArea></HeroArea>
+            <Analitic></Analitic>
             <Services></Services>
             <Skills></Skills>
             <HomeProjects></HomeProjects>

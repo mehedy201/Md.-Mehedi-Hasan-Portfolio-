@@ -1,9 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useProjects from '../../../Hooks/useProjects';
 import Project from '../../Projects/Project';
 
 const HomeProjects = () => {
-    const [projects] = useProjects([])
+    const [projects] = useProjects([]);
+
+    const navigate = useNavigate();
+    const handleAllProjectsButton = () => {
+        navigate('/our-projects')
+    }
     return (
         <div className='container py-5'>
             <h2 className="text-center text-white">Our Projects</h2>
@@ -13,6 +19,7 @@ const HomeProjects = () => {
                         projects.slice(0,6).map(project => <Project key={project.id} project={project}></Project>)
                     }
             </div>
+            <button onClick={handleAllProjectsButton} className='btn btn-primary d-block mx-auto mt-5'>All Projects</button>
         </div>
     );
 };

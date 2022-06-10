@@ -1,35 +1,31 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
 
 
 const Review = () => {
     return (
-        <div className='py-5'>
-            <Carousel fade>
-                <Carousel.Item>
-                  <Carousel.Caption>
-                    <h3 className='text-white'>First slide label</h3>
-                    <p className='text-secondary'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Carousel.Caption>
-                    <h3 className='text-white'>Second slide label</h3>
-                    <p className='text-secondary'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-
-                  <Carousel.Caption>
-                    <h3 className='text-white'>Third slide label</h3>
-                    <p className='text-secondary'>
-                      Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-
-            
+        <div className="container py-5">
+          <h2 className="hero-text text-white text-center">Our Review</h2>
+          <p className="hero-text-p text-white text-center">Got this rivew after work on Freelancing marketplace</p>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col p-4">
+              <div className="bg-secondary p-4 rounded">
+                <p className='text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, illo.</p>
+                <h6 className='text-white text-center'>Demo</h6>
+              </div>
+            </div>
+            <div className="col p-4">
+              <div className="bg-secondary p-4 rounded">
+                <p className='text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, illo.</p>
+                <h6 className='text-white text-center'>Demo</h6>
+              </div>
+            </div>
+            <div className="col p-4">
+              <div className="bg-secondary p-4 rounded">
+                <p className='text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, illo.</p>
+                <h6 className='text-white text-center'>Demo</h6>
+              </div>
+            </div>
+          </div>
         </div>
     );
 };
