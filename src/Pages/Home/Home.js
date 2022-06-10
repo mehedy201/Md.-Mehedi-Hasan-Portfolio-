@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Analitic from './Analitic/Analitic';
 import HeroArea from './HeroArea/HeroArea';
 import HomeProjects from './HomeProjects/HomeProjects';
@@ -14,7 +15,7 @@ const Home = () => {
             <Services></Services>
             <Skills></Skills>
             <HomeProjects></HomeProjects>
-            <Review></Review>
+            <Contact></Contact>
         </div>
     );
 };
