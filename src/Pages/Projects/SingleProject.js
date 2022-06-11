@@ -1,6 +1,14 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+// import { useParams } from "react-router-dom";
 
-const SingleProject = () => {
+const SingleProject = ({projects}) => {
+    const {id} = useParams()
+    console.log(projects);
+
+
+
+
     return (
         <div className='container'>
             <div className="row row-cols-1 row-cols-md-3 g-1 py4">

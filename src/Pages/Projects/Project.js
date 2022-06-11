@@ -1,13 +1,23 @@
 import React from 'react';
+import './Project.css'
+import { useNavigate } from 'react-router-dom';
+import SingleProject from './SingleProject';
 
-const Project = ({project}) => {
+const Project = ({project, projects}) => {
 
-    const {img, name, des, live, client, server} = project;
+    const navigate = useNavigate();
+
+    const {id, img, name, des, live, client, server} = project;
+
+    const imageHandle = (id, projects) => {
+        navigate(`/our-projects/${id}`);
+        {<SingleProject projects={projects}></SingleProject>}
+    }
 
     return (
         <div className='col'>
             <div className="card h-100 shadow">
-                    <img className='m-4 rounded h-50' src={img} alt={name}/>
+                    <img onClick={() => imageHandle(id, projects)} className='m-4 rounded h-50 for-pointer' src={img} alt={name}/>
                   <div className="card-body">
                     <h5 className="card-title title-color-card">{name}</h5>
                     <p className="card-text text-color-card">{des}</p>
@@ -19,6 +29,7 @@ const Project = ({project}) => {
                         }
                     </div>
                   </div>
+                  
             </div>
         </div>
     );
